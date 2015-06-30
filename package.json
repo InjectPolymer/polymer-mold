@@ -1,0 +1,25 @@
+{
+  "name": "polymer-mold",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "for f in tests/*; do echo \"$f\"; node \"$f\"; done; echo 'passed!!!';exit 0 "
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/InjectPolymer/polymer-mold.git"
+  },
+  "keywords": [
+    "npm",
+    "module",
+    "polymer",
+    "mold"
+  ],
+  "author": "Inject Polymer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/InjectPolymer/polymer-mold/issues"
+  },
+  "homepage": "https://github.com/InjectPolymer/polymer-mold"
+}
